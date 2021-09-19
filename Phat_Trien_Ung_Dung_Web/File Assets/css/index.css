@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fakeimg {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.fakeimg-img{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 5px;
+}
+.fakeimg-img:hover,
+.fakeimg-backgroud:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fakeimg-backgroud{
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #999;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer a{
+    margin-left: 20px;
+}
+.footer a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: rgb(9, 255, 0);
+}
